@@ -1,0 +1,150 @@
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Portal TV Easy - Rede Easy Saúde</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #0071bc;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .logo-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 10px;
+    }
+
+    .logo-container img {
+      height: 60px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 26px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+      padding: 15px;
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .card a {
+      text-decoration: none;
+      color: #0071bc;
+      font-weight: bold;
+    }
+
+    .weather-section, .marquee-section {
+      background-color: #003366;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .weather-widget iframe {
+      margin: 5px;
+      border: none;
+    }
+
+    .marquee {
+      width: 100%;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+
+    .marquee span {
+      display: inline-block;
+      padding-left: 100%;
+      animation: scroll-text 25s linear infinite;
+    }
+
+    @keyframes scroll-text {
+      0% { transform: translateX(0%); }
+      100% { transform: translateX(-100%); }
+    }
+
+    footer {
+      background-color: #0071bc;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo-container">
+    <img src="download.jpeg" alt="Logo Rede Easy Saúde">
+    <img src="WhatsApp Image 2025-07-26 at 11.40.54.jpeg" alt="Logo TV Easy">
+  </div>
+  <h1>Portal de Exibição - TV Easy Saúde</h1>
+</header>
+
+<div class="grid">
+  <div class="card"><a href="painel_planalto.html" target="_blank">Seven Planalto</a></div>
+  <div class="card"><a href="painel_esperanca.html" target="_blank">Seven Esperança</a></div>
+  <div class="card"><a href="painel_cearamirim.html" target="_blank">Ceará-Mirim</a></div>
+  <div class="card"><a href="painel_macaiba.html" target="_blank">Macaíba</a></div>
+  <div class="card"><a href="painel_vivalli.html" target="_blank">Vivalli</a></div>
+  <div class="card"><a href="painel_famed.html" target="_blank">Clínica FAMED</a></div>
+  <div class="card"><a href="painel_extremoz.html" target="_blank">Seven Extremoz</a></div>
+  <div class="card"><a href="painel_petropolis.html" target="_blank">Seven Petrópolis</a></div>
+  <div class="card"><a href="tv_easy_eventos.html" target="_blank">📺 TV Easy - Eventos</a></div>
+</div>
+
+<div class="weather-section">
+  <div class="weather-widget">
+    <iframe src="https://www.tempo.com/wid_loader/452f43114577ba5bd04d6c39aa110a60" width="180" height="45"></iframe>
+    <iframe src="https://www.tempo.com/wid_loader/b44ac1d27a7ea55ad1fa9b03a3c1c365" width="180" height="45"></iframe>
+    <iframe src="https://www.tempo.com/wid_loader/fbf24587fa610f3c7244170c3b1cdd89" width="180" height="45"></iframe>
+    <iframe src="https://www.tempo.com/wid_loader/55ef3c392e05ad8a6bc310ab20edee2a" width="180" height="45"></iframe>
+    <iframe src="https://www.tempo.com/wid_loader/1fe34220ee1a692df16d0aa4cb7ae6be" width="180" height="45"></iframe>
+    <iframe src="https://www.tempo.com/wid_loader/67000f740da474138191066e3a7ec2a3" width="180" height="45"></iframe>
+  </div>
+</div>
+
+<div class="marquee-section">
+  <div class="marquee">
+    <span>📣 TV Easy - Informação com Propósito | 🧩 Acolhimento, Inclusão e Cuidado | 👩‍⚕️ Saúde com dignidade para todos | 🎙 Meu Doutor - toda semana na sua tela | 💬 Agende sua consulta agora mesmo pelo WhatsApp</span>
+  </div>
+</div>
+
+<footer>
+  &copy; 2025 TV Easy – Rede Easy Saúde. Todos os direitos reservados.
+</footer>
+
+</body>
+</html>
